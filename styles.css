@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.map-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: none;
+    pointer-events: none;
+}
+
+path {
+    fill: #cfd8dc;
+    stroke: #455a64;
+    stroke-width: 1;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+path:hover {
+    fill: #78909c;
+}
